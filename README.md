@@ -1,1 +1,1 @@
-# Fate-EXTRA-Japanese-HD-Font
+# Fate/EXTRA Japanese HD Font
