@@ -18,8 +18,8 @@ Fate/EXTRA PPSSPP用のフォントテクスチャ
 `ツール > 開発者向けツール > テクスチャを置き換える [ON]`
 
 
-
-
+解凍したzipファイルの中身を`PPSSPP/memstick/PSP/TEXTURES/%GAME_ID%`に配置する。
+日本版Fate/EXTRAのゲームIDは'NPJH50247'です。
 
 
 
