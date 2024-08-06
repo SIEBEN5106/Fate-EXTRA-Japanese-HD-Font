@@ -21,6 +21,58 @@ Fate/EXTRA PPSSPP用のフォントテクスチャ
 解凍したzipファイルの中身を`PPSSPP/memstick/PSP/TEXTURES/%GAME_ID%`に配置する。
 日本版Fate/EXTRAのゲームIDは`NPJH50247`です。
 
+## 他のテクスチャパックと併用する方法
+併用するテクスチャパックの`hash =`の種類によって方法が異なります。
+* `hash = quick`の場合
+
+以下の内容をコピーし、併用するテクスチャパックのtextures.iniの`#Fonts`にペーストする。（`#Fonts`が存在しない場合は`[hashes]`より下にペーストする。）
+```
+#region --- Fonts ---
+00000000693a49fe148ac97f = Fonts/Font_01.png
+00000000693a49fe0cb57ffa = Fonts/Font_02.png
+00000000693a49feecab6a80 = Fonts/Font_03.png
+00000000693a49fee84661df = Fonts/Font_04.png
+00000000693a49fe53c2c1a8 = Fonts/Font_05.png
+00000000693a49fe13401393 = Fonts/Font_06.png
+00000000693a49fef7f45402 = Fonts/Font_07.png
+00000000693a49fe49159703 = Fonts/Font_08.png
+00000000693a49fefcd21d61 = Fonts/Font_09.png
+00000000693a49fe8819c35b = Fonts/Font_10.png
+00000000693a49fe74aa4ebe = Fonts/Font_11.png
+00000000693a46f156e049a5 = Fonts/Font_12.png
+00000000693a46f1723d9a07 = Fonts/Font_13.png
+00000000693a49fecbc2cc8b = Fonts/Font_14.png
+00000000693a49fe47c9e47f = Fonts/Font_15.png
+00000000693a49fe3e39ff0c = Fonts/Font_16.png
+#endregion
+```
+
+* `hash = xxh64`の場合
+
+以下の内容をコピーし、併用するテクスチャパックのtextures.iniの`#Fonts`にペーストする。（`#Fonts`が存在しない場合は`[hashes]`より下にペーストする。）
+```
+#region --- Fonts ---
+00000000693a49fe1f6ed1f8 = Fonts/00000000693a49fe1f6ed1f8.ktx2
+00000000693a49fec1b34b11 = Fonts/00000000693a49fec1b34b11.ktx2
+00000000693a49fe2eabb117 = Fonts/00000000693a49fe2eabb117.ktx2
+00000000693a46f1710960f9 = Fonts/Font_13.png
+00000000693a46f1f8ef1c56 = Fonts/Font_12.png
+00000000693a49fe044d3917 = Fonts/Font_03.png
+00000000693a49fe1abccc37 = Fonts/Font_02.png
+00000000693a49fe3ac3ffc4 = Fonts/Font_09.png
+00000000693a49fe3bd01903 = Fonts/Font_11.png
+00000000693a49fe745b66d7 = Fonts/Font_08.png
+00000000693a49fe85e390d7 = Fonts/Font_06.png
+00000000693a49febd97f542 = Fonts/Font_05.png
+00000000693a49fec0096bd4 = Fonts/Font_10.png
+00000000693a49fecaedf2d9 = Fonts/Font_07.png
+00000000693a49feddabeeb3 = Fonts/Font_04.png
+00000000693a49fedeb20577 = Fonts/Font_01.png
+00000000693a49fe3b27c79e = Fonts/Font_15.png
+00000000693a49fed7a2f7cc = Fonts/Font_14.png
+00000000693a49fe76371a4f = Fonts/Font_16.png
+#endregion
+```
 
 
 ## プレビュー
