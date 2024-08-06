@@ -23,7 +23,7 @@ Fate/EXTRA PPSSPP用のフォントテクスチャ
 
 
 
-##プレビュー
+## プレビュー
 
 before
 ![NPJH50247_00001](https://github.com/user-attachments/assets/90c10a52-f1e2-4e0e-a222-9997a4d6b281)
