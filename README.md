@@ -131,9 +131,17 @@ HD Fontの`Fonts`フォルダを併用するテクスチャパックの`textures
 
 
 ## 使用したフォント
-* 本文・・・源暎ラテミン V2
-* ポエム・・・しっぽり明朝 OTF 太字
-* コードキャスト・・・Bizin Gothic
+* 本文・・・「源暎ラテミン V2」(https://okoneya.jp/font/genei-latin.html)
+
+   Licensed under SIL Open Font License 1.1 (http://scripts.sil.org/OFL)
+  
+* ポエム・・・「しっぽり明朝 OTF 太字」(https://fontdasu.com/shippori-mincho/)
+
+  Licensed under SIL Open Font License 1.1 (http://scripts.sil.org/OFL)
+  
+* コードキャスト・・・「Bizin Gothic」(https://github.com/yuru7/bizin-gothic)
+
+  Licensed under SIL Open Font License 1.1 (http://scripts.sil.org/OFL)
 
 
 
